@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const JannaPage()),
+                  MaterialPageRoute(builder: (context) => JannaPage()),
                 );
               },
             ),
@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const HannaPage()),
+                  MaterialPageRoute(builder: (context) => HannaPage()),
                 );
               },
             ),
@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const HongyokPage()),
+                  MaterialPageRoute(builder: (context) => HongyokPage()),
                 );
               },
             ),
