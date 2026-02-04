@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'janna_page.dart';
-import 'hanna_page.dart';
-import 'hongyok_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -53,24 +51,6 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
             // เดี๋ยวเราจะเพิ่มปุ่มของ Hanna และ Hongyok ต่อที่นี่ครับ
-            ElevatedButton(
-              child: const Text('ไปที่หน้าของ Hanna'),
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => HannaPage()),
-                );
-              },
-            ),
-            ElevatedButton(
-              child: const Text('ไปที่หน้าของ Hongyok'),
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => HongyokPage()),
-                );
-              },
-            ),
           ],
         ),
       ),
